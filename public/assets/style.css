@@ -2,7 +2,7 @@
   font-family: Banny;
   src: url("../assets/font/banny-cufonfonts/Banny-BoldRound.otf");
 }
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300,400;1,800&display=swap");
 /* font-family: 'Open Sans', sans-serif; */
 * {
   margin: 0;
@@ -165,4 +165,60 @@ li {
   color: white;
   border-radius: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* about style */
+.about-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  margin-left: 4%;
+}
+.about-us {
+  width: 40%;
+  text-align: center;
+}
+.about-us h1 {
+  font-size: 3rem;
+  font-family: Banny;
+  margin-bottom: 1%;
+}
+.about-us h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.about-us p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.about-img {
+  height: 60vh;
+  width: 50%;
+}
+.about-img img {
+  width: 100%;
+  height: 65vh;
+}
+
+/* 
+footer style */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  letter-spacing: 4px;
+  width: 100%;
+  height: 19vh;
+  background: #000000;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 300;
+}
+.footer span {
+  font-weight: 800;
 }
