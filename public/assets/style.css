@@ -253,6 +253,56 @@ li {
   width: 100%;
   height: 65vh;
 }
+/* booking style */
+.booking-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 85vh;
+}
+.booking-us {
+  text-align: center;
+}
+.booking-us h1 {
+  font-size: 3rem;
+  font-family: Banny;
+}
+.booking-form input {
+  width: 40%;
+  height: 6vh;
+  margin-bottom: 1.5%;
+  margin-left: 1%;
+  background-color: #e5e5e5;
+  color: #333333;
+  padding-left: 1.5%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+}
+.booking-form {
+  width: 100%;
+  margin-top: 3%;
+}
+.booking-img {
+  height: 60vh;
+  width: 50%;
+}
+.booking-img img {
+  width: 100%;
+  height: 65vh;
+}
+.book {
+  width: 84.5%;
+  margin-left: 1%;
+  height: 7vh;
+  border: none;
+  border-radius: 7px;
+  background-color: #e8c300;
+  color: #ffffff;
+  font-size: 20px;
+}
 
 /* 
 footer style */
