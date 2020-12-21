@@ -399,6 +399,28 @@ li {
   text-decoration: none;
   color: black;
 }
+.menu-forEach {
+  margin-top: 5%;
+  width: 90%;
+  margin-left: 7%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 5%;
+}
+.div-forEach {
+  margin-bottom: 6%;
+}
+
+.menu-forEach h1 {
+  font-family: Banny;
+  font-size: 25px;
+}
+.menu-forEach p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: rgba(51, 51, 51, 0.5);
+  margin-bottom: 2%;
+}
 
 /* 
 footer style */

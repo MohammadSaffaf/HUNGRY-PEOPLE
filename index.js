@@ -3,6 +3,7 @@ const app = express();
 const PORT =2220
 app.use(express.static('public'))
 app.set('view engine' , 'ejs')
+const myData=require('./menu.json')
 
 
 app.get('/' ,(req,res) =>{
@@ -18,7 +19,7 @@ app.get('/GALLERY' ,(req,res) =>{
     res.render('GALLERY',{title:'GALLERY'})
 })
 app.get('/MENU' ,(req,res) =>{
-    res.render('MENU',{title:'MENU'})
+    res.render('MENU',{title:'MENU',myData})
 })
 
 

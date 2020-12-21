@@ -16,6 +16,16 @@
             </article>
         </article>
         <article class="menu-forEach">
+            <% myData.forEach(data=>{%>
+                <div class="div-forEach">
+                    <h1>
+                        <%= data.name %> . . . . <%= data.price %>
+                    </h1>
+                    <p>
+                        <%= data.disc %>
+                    </p>
+                </div>
+                <%}) %>
 
         </article>
 
