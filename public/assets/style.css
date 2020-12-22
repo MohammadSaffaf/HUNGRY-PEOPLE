@@ -421,6 +421,77 @@ li {
   color: rgba(51, 51, 51, 0.5);
   margin-bottom: 2%;
 }
+/* event Style */
+.event-section {
+  background: url(../img/bg.png) center / cover no-repeat;
+  height: 90vh;
+  color: #ffffff;
+  text-align: center;
+}
+.event-div {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  height: 75vh;
+  margin-right: 3%;
+}
+.event-div img {
+  width: 110%;
+}
+.event-section h4 {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 3%;
+  font-weight: 300;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.event-section p {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* contact style */
+.contact-section {
+  min-height: 90vh;
+}
+.contact-div {
+  text-align: center;
+}
+.contact-div h1 {
+  font-size: 3rem;
+  font-family: Banny;
+  margin-bottom: 1%;
+  text-transform: uppercase;
+  margin-top: 7%;
+}
+.contact-div h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  width: 36%;
+  margin-left: 32%;
+}
+.contact-form {
+  width: 90%;
+  margin-left: 5%;
+}
+.contact-form input {
+  width: 40%;
+  height: 6vh;
+  margin-bottom: 1.5%;
+  margin-left: 1%;
+  background-color: #e5e5e5;
+  color: #333333;
+  padding-left: 1.5%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+}
 
 /* 
 footer style */

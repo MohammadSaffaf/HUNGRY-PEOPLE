@@ -1,6 +1,6 @@
 const express =require('express');
 const app = express();
-const PORT =2220
+const PORT = process.env.PORT || 2220
 app.use(express.static('public'))
 app.set('view engine' , 'ejs')
 const myData=require('./menu.json')
@@ -20,6 +20,12 @@ app.get('/GALLERY' ,(req,res) =>{
 })
 app.get('/MENU' ,(req,res) =>{
     res.render('MENU',{title:'MENU',myData})
+})
+app.get('/event' ,(req,res) =>{
+    res.render('event',{title:'EVENT'})
+})
+app.get('/contact' ,(req,res) =>{
+    res.render('contact',{title:'CONTACT'})
 })
 
 
