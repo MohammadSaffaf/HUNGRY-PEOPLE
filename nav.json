@@ -1,0 +1,32 @@
+
+[
+   
+    {
+        "name": "About",
+        "url": "/#about"
+    },
+    {
+        "name": "Team",
+        "url": "/team"
+    },
+    {
+        "name": "Booking",
+        "url": "/booking"
+    },
+    {
+        "name": "MENU",
+        "url": "/MENU"
+    },
+    {
+        "name": "GALLERY",
+        "url": "/GALLERY"
+    },
+    {
+        "name": "Events",
+        "url": "/events"
+    },
+    {
+        "name": "Contact",
+        "url": "/contact"
+    }
+]

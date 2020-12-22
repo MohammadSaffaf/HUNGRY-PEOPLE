@@ -480,7 +480,7 @@ li {
   margin-left: 5%;
 }
 .contact-form input {
-  width: 40%;
+  width: 30%;
   height: 6vh;
   margin-bottom: 1.5%;
   margin-left: 1%;
@@ -491,6 +491,47 @@ li {
   font-size: 20px;
   border: none;
   border-radius: 7px;
+}
+.contact-form textarea {
+  background-color: #e5e5e5;
+  color: #333333;
+  padding-left: 1.5%;
+  margin-left: 1%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  padding-top: 2%;
+}
+.contact-text {
+  width: 87%;
+  margin-left: 6%;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(51, 51, 51, 0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 1%;
+}
+.contact-text button {
+  width: 45%;
+
+  height: 7vh;
+  border: none;
+  border-radius: 7px;
+  background-color: #e8c300;
+  color: #ffffff;
+  font-size: 20px;
+}
+.contact-map {
+  margin-top: 8%;
+  background: url(../img/map.png) center/cover no-repeat;
+  height: 50vh;
+}
+/* 404 style */
+.page404 {
+  background: url(../img/404.png) center/50% no-repeat;
+  height: 100vh;
 }
 
 /* 
